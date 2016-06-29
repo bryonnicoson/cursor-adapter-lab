@@ -12,7 +12,6 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "SHOPPING_DB";
     private static final int DB_VERSION = 7;
 
-
     private final static String GROCERY_TABLE = "grocery";
     private final static String GROCERY_ID = "_id";
     private final static String GROCERY_ITEM = "item";
