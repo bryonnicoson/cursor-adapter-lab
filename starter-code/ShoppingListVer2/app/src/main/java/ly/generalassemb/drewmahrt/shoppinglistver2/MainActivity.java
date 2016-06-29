@@ -94,20 +94,21 @@ public class MainActivity extends AppCompatActivity {
     public void seedDB(){  // this should be in the helper as well ?  and should have conditional (if !exists...)
 
         String item[] = {
-                "Milk", "Honey", "Bread", "Butter", "Sugar", "Spice",
+                "Milk", "Honey", "Bread", "Butter", "Spice", "Weekly World News",
                 "National Enquirer", "King Size Kit Kat", "Tic Tacs", "SPAM", "Eggs", "No Tea"
         };
 
         Double price[] = {
-                2.99, 6.99, 3.49, 4.99, 2.49, 5.49, 7.50, 1.99, 1.49, 3.49, 2.79, 0.00
+                2.99, 6.99, 3.49, 4.99, 5.49, 7.50, 7.50, 1.99, 1.49, 3.49, 2.79, 0.00
         };
 
         String detail[] = {
                 "2% Dairy Fresh!  MOOO!", "From the land of Milk and Honey (and bees)",
-                "White bread, Wonder bread", "Land-O-Lakes Unsalted",
-                "1 pound bag plain old granular sugar", "A randomly chosen spice from the spice rack in aisle 7",
-                "Because enquiring minds want to know", "Because a giant-sized candy bar is the best impulse buy",
-                "Who wants a candy/mint? that looks and tastes like medicine?",
+                "Wonder bread!", "Land-O-Lakes Unsalted",
+                "A randomly chosen spice from the spice rack in aisle 7 or the spice Melange, whichever is cheaper",
+                "Travel back to 2007 to buy a copy of this tabloid (the spice Melange might help with this)",
+                "Because enquiring minds want to know", "Because a king-sized candy bar is the best kind of impulse buy",
+                "Who wants a candy/mint that looks and tastes like medicine?",
                 "Hormel brings you SPiced hAM!  SPAM, SPAM, SPAM, and SPAM",
                 "Ex-future chickens in convenient individual containers.  Good with SPAM",
                 "You have no tea, and even if you drop it from your inventory, you cannot get rid of it"

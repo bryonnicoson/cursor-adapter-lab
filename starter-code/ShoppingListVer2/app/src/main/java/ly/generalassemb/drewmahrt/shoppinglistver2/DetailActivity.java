@@ -24,7 +24,7 @@ public class DetailActivity extends AppCompatActivity {
         mainIntent = getIntent();
 
         mTvItem.setText(mainIntent.getStringExtra("ITEM"));
-        mTvPrice.setText("$" + mainIntent.getDoubleExtra("PRICE", 0.00));
+        mTvPrice.setText(String.format("$%.2f", mainIntent.getDoubleExtra("PRICE", 0.00)));
         mTvDetail.setText(mainIntent.getStringExtra("DETAIL"));
     }
 }
