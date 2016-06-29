@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 "Who wants a candy/mint that looks and tastes like medicine?",
                 "Hormel brings you SPiced hAM!  SPAM, SPAM, SPAM, and SPAM",
                 "Ex-future chickens in convenient individual containers.  Good with SPAM",
-                "You have no tea, and even if you drop it from your inventory, you cannot get rid of it"
+                "You have no tea, and no matter how many times you remove it from your cart, it is still here"
         };
 
         for (int i = 0; i < item.length; i++) {
